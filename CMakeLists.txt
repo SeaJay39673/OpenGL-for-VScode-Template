@@ -22,7 +22,7 @@ set(VCPKG_TARGET_TRIPLET x64-windows-static)
 endif()
 
 
-include(./vcpkg/scripts/buildsystems/vcpkg.cmake)
+include(./vcpkg/scripts/buildsystems/vcpkg.cmake) # Show where cmake can find vcpkg
 
 find_package(glad CONFIG REQUIRED)
 target_link_libraries(Template PRIVATE glad::glad)
