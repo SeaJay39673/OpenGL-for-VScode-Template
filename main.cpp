@@ -122,7 +122,7 @@ int main(int, char **)
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
-    Shader shader("../Resources/Shaders/Simple.vs", "../Resources/Shaders/Simple.fs"); // Load in shader files, compile, and create shader object
+    Shader shader("./Resources/Shaders/Simple.vs", "./Resources/Shaders/Simple.fs"); // Load in shader files, compile, and create shader object
 
     while (!glfwWindowShouldClose(window)) // Where the window stuff happens.
     {
